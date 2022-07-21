@@ -6,7 +6,7 @@
 	<?php require 'assets/function.php'; ?>
 	<?php
     $con = new mysqli('localhost','root','','mybank');
-    define('bankname', 'Sparks Project: JAMMU BANK');
+    define('bankname', 'Sparks Project: JAMMU BANK.');
 	
 		$error = "";
 		if (isset($_POST['userLogin']))
